@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/task/assets/:path*",
+        "destination": "/assets/:path*"
+      }
+    ]
+  }
