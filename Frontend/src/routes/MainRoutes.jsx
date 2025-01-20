@@ -22,11 +22,8 @@ const MainRoutes = {
       path: '/',
       element: <DashboardDefault />
     },
-    // {
-    //   path: 'color',
-    //   element: <Color />
-    // },
-    
+
+
     {
       path: 'settings',
       children: [
