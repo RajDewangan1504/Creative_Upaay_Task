@@ -1,8 +1,16 @@
 {
-    "rewrites": [
+    "version": 2,
+    "builds": [
       {
-        "source": "/task/assets/:path*",
-        "destination": "/assets/:path*"
+        "src": "next.config.js",
+        "use": "@vercel/next"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
       }
     ]
   }
+  
